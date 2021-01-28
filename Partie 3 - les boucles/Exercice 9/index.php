@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>PHP - Partie 3 - Exercice 9</title>
+</head>
+
+<body>
+    <?php
+    $altnumber = rand(0, 30)
+    ?>
+    <p>
+        <?php
+        for ($nombre_de_lignes = 1; $nombre_de_lignes <= 100; $nombre_de_lignes++) {
+            if ($nombre_de_lignes <= $altnumber) {
+                echo $nombre_de_lignes . '<br />';
+                continue;
+            } else {
+                echo 'le nombre aléatoire est : ' . $altnumber;
+                break;
+            }
+        }
+        ?>
+    </p>
+    <a href="http://rgyo-php/"><button type="button" name="button">Accueil</button></a>
+</body>
+
+</html>

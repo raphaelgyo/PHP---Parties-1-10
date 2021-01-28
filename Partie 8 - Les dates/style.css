@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Kaushan+Script&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+/* CSS rules to specify families */
+/* font-family: 'Bangers', cursive; */
+/* font-family: 'Kaushan Script', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Bangers', sans-serif;
+    color: white;
+}
+
+.MAJ,
+th {
+    font-family: 'Kaushan Script', cursive;
+}
+
+body {
+    background-image: linear-gradient(
+        to top,
+        #02122a,
+        #393e53,
+        #6f7180,
+        #a8a8b0,
+        #e3e3e3
+    );
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.site-content {
+    opacity: 0.75;
+}

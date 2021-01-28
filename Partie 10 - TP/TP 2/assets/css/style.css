@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+/* @import './node_modules/nes.css/css/nes.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* CSS rules to specify families */
+/* font-family: 'Bangers', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(
+        to bottom,
+        #e3e3e3,
+        #a8a8b0,
+        #6f7180,
+        #393e53,
+        #02122a
+    );
+    /* min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto; */
+}
+
+footer {
+    color: #f4fefe;
+    text-align: center;
+    background-color: black;
+    padding: 10px 50px 10px;
+}
+
+h1 {
+    font-family: 'Bangers', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #22678f;
+}
+
+h2 {
+    text-shadow: 2px 2px 2px #22678f;
+    font-family: 'Press Start 2P', cursive;
+    text-align: left;
+    font-size: 30px;
+    background-color: #9bbc0f;
+    border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+    padding: 60px 0 60px;
+    border: 1px solid #808080;
+    box-shadow: inset 0px 3px 8px -1px #22678f;
+}
+
+h3 {
+    /* font-family: 'Bangers', sans-serif; */
+    text-shadow: 2px 2px 2px #22678f;
+    font-family: 'Press Start 2P', cursive;
+    text-align: left;
+    font-size: 20px;
+    background-color: #9bbc0f;
+    border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+    padding: 30px 0 30px;
+    border: 1px solid #808080;
+    box-shadow: inset 0px 3px 8px -1px #22678f;
+}
+
+legend {
+    text-shadow: 2px 2px 2px #22678f;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    background-color: #9bbc0f;
+    border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+    padding: 10px 0 10px 20px;
+    border: 1px solid #808080;
+    box-shadow: inset 0px 3px 8px -1px #22678f;
+}
+
+.BG {
+    background-color: #c0c0c0;
+    border: 1px solid #808080;
+    border-radius: 20px 20px 75px 20px / 20px 20px 75px 20px;
+    box-shadow: 0px 3px 8px -1px #22678f;
+}
+
+.input-icone {
+    position: relative;
+    color: #808080;
+}
+.input-icone i {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    text-shadow: 1px 1px 1px #22678f;
+}
+
+.input-icone input[type='phone'],
+input[type='email'] {
+    padding-left: 35px;
+}
+
+input,
+#streetType,
+#diplomeSelect,
+textarea {
+    box-shadow: 0px 3px 8px -1px #22678f;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='date'],
+input[type='email'],
+input[type='phone'],
+#diplomeSelect,
+#streetType,
+#whichHero,
+#whyThisHero,
+#hackExperience {
+    font-size: 14px;
+}
+
+#reset {
+    color: #f4f4f4;
+    border-color: #f4f4f4;
+    background-color: #810000;
+}
+
+#reset:hover {
+    color: #343a40;
+    border-color: #343a40;
+    background-color: #dd1111;
+}
+
+#submit {
+    color: #f4f4f4;
+    border-color: #f4f4f4;
+    background-color: #22678f;
+}
+
+#submit:hover {
+    color: #343a40;
+    border-color: #343a40;
+    background-color: #9bbc0f;
+}
+
+.regexAlert {
+    color: red !important;
+}
+
+.bgError {
+    border: 1px solid red !important;
+    background-color: rgba(170, 11, 11, 0.308) !important;
+    border-radius: 5px !important;
+}
+
+.errorMSG {
+    color: #dd1111 !important;
+}
