@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: 0;
+}
+
+body {
+    background: #161313;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    color: #cd106e;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+.form-control,
+.custom-select {
+    background: transparent !important;
+    color: #f9f9f9;
+    /* border: 2px solid #7a7a7a; */
+    transition: all 0.2s;
+
+    border-bottom: 2px solid #cd106e;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+
+.form-control:focus,
+.custom-select:focus {
+    border-bottom: 4px solid #ff4754;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+option {
+    /* color: white; */
+    color: #cd106e;
+    background-color: #131416;
+}
+
+select option:hover {
+    color: #ff4754 !important;
+}
+
+button.btn-danger {
+    background-color: #cd106e !important;
+}
