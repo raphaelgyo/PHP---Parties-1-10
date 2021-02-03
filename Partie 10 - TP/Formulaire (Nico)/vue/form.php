@@ -5,7 +5,7 @@
             <label for="lastname">Nom :</label>
             <!-- Dans la classe de mon input je fais un ternaire pour vérifier si la clef 'lastname' de mon tableau d'erreur est vide.
             Si c'est le cas, je ne fais rien, sinon j'ajout la classe 'error_input'. -->
-            <!-- Dans la value de mon input, je vérifie grace à mon Null coalescing ('??') si la variable $lastname exist, si c'est le cas, je l'affiche, sinon je n'affiche rien. -->
+            <!-- Dans la value de mon input, je vérifie grace à mon Null coalescing ('??') si la variable $lastname existe, si c'est le cas, je l'affiche, sinon je n'affiche rien. -->
             <input type="text" name="lastname" class="form-control <?= (isset($error['lastname'])) ? 'error_input' : '' ?>" placeholder="Nom" value="<?= $lastname ?? '' ?>">
             <!-- Ici je crée un paragraphe error dans lequel j'utilise une nouvelle fois le '??', si la clef lastname existe dans mon tableau, j'affiche sa valeur -->
             <p class="error"><?= ($error['lastname']) ?? '' ?></p>
@@ -57,7 +57,7 @@
         </div>
         <div class="col-md-6 my-2">
             <label for="numbreAddress">N° de rue :</label>
-            <input type="text" name="numberAddress" class="form-control <?= (isset($error['numberAddress'])) ? 'error_input' : '' ?>" placeholder="ex : 80bis" value="<?= $numberAdress ?? '' ?>">
+            <input type="text" name="numberAddress" class="form-control <?= (isset($error['numberAddress'])) ? 'error_input' : '' ?>" placeholder="ex : 80bis" value="<?= $numberAddress ?? '' ?>">
             <p class="error"><?= ($error['numberAddress']) ?? '' ?></p>
         </div>
         <div class="col-md-6 my-2">
