@@ -2,7 +2,7 @@
 
 include('controllers/index_controller.php');
 
-if (isset($_COOKIE['user'])) {
+if (isset($_COOKIE['firstname'])) {
     include('templates/header.php');
     include('views/lovers.php');
     include('templates/footer.php');

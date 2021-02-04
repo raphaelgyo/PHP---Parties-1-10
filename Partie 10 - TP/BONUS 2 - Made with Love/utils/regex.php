@@ -1,7 +1,7 @@
 <?php
 // Ici j'utilise la fonction define() qui me permet de nommer des superGlobales que j'utilise ensuite dans mon controller (ici je leur passe les regexs).
 define('REGEX_NO_NUMBER', "/^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]+$/");
-define('REGEX_DATE', "/^(19|20[0-9]{2})[-\/.](0[1-9]|1[012])[-\/.](0[1-9]|[12][0-9]|3[01])$/");
+define('REGEX_DATE', "/^(19[0-9]{2}|20[0-9]{2})[-\/.](0[1-9]|1[012])[-\/.](0[1-9]|[12][0-9]|3[01])$/");
 define('REGEX_ZIPCODE', "/^(([0-8][0-9])|(9[0-5]))[0-9]{3}$/");
 define('REGEX_NUMBER', "/^[1-9]{1}$/");
 

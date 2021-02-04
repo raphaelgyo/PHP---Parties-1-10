@@ -1,4 +1,4 @@
-<form class="col-md-12" action="lovers_controller.php" method="POST">
+<form class="col-md-12" action="" method="POST">
     <h2 class="text-center mb-5">💗 Bienvenue jeune LOVER 💗</h2>
 
     <div class="row justify-content-center">
