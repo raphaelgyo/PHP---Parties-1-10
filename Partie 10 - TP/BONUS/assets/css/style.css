@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Bangers', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #22678f;
+}
+
+h2 {
+    text-shadow: 2px 2px 2px #22678f;
+    text-align: left;
+    font-size: 30px;
+    border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+    padding: 10px 0 10px;
+    border: 1px solid #a5a5a5;
+    box-shadow: inset 0px 3px 8px -1px #22678f;
+}
+
+legend {
+    text-shadow: 2px 2px 2px #22678f;
+    font-size: 16px;
+    border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+    padding: 10px 0 10px 20px;
+    border: 1px solid #a5a5a5;
+    box-shadow: inset 0px 3px 8px -1px #22678f;
+}
+
+.BG {
+    background-color: #c4c4c4;
+    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+    box-shadow: 0px 3px 8px -1px #22678f;
+}
+
+input,
+#streetType,
+#diplomeSelect,
+textarea {
+    box-shadow: 0px 3px 8px -1px #22678f;
+}
+
+#reset {
+    color: #f4f4f4;
+    border-color: #f4f4f4;
+    background-color: #810000;
+}
+
+#reset:hover {
+    color: #343a40;
+    border-color: #343a40;
+    background-color: #dd1111;
+}
+
+#submit {
+    color: #f4f4f4;
+    border-color: #f4f4f4;
+    background-color: #22678f;
+}
+
+#submit:hover {
+    color: #343a40;
+    border-color: #343a40;
+    background-color: #9bbc0f;
+}
+
+.errorMSG {
+    color: #dd1111 !important;
+}
+
+/* DARK MODE */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#buttonSwitchMode {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 8px -1px #22678f;
+}
+
+#buttonSwitchMode:hover {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: inset 0px 3px 8px -1px #22678f;
+}

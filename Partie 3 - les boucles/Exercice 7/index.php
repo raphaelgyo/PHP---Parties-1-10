@@ -15,7 +15,7 @@
         $number += 15;
     }
     ?>
-    <a href="http://rgyo-php/"><button type="button" name="button">Accueil</button></a>
+    <a href="http://rgyo-php/PHP/Partie 3 - les boucles/"><button type="button" name="button">Accueil</button></a>
 </body>
 
 </html>

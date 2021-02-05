@@ -18,7 +18,7 @@
         if ($gender != 'Homme') {
             echo 'C\'est une développeuse !!!';
         } else {
-            echo 'C\est un développeur !!!';
+            echo 'C\'est un développeur !!!';
         }
         ?>
     </p>
