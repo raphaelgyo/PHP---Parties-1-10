@@ -25,7 +25,7 @@
         </div>
 
         <div class="col-md-6 mb-3">
-            <label for="gender">Genre</label>
+            <label for="gender">Vous-êtes ?</label>
             <select class="custom-select d-block w-100 <?= (isset($error['gender'])) ? 'error_input' : '' ?>" id="gender" name="gender">
                 <?php
                 if ($gender != '') {
@@ -62,20 +62,20 @@
 
 
         <div class="col-md-6 mb-3">
-            <label for="interestedIn">Type de recherche...</label>
-            <select class="custom-select d-block w-100 <?= (isset($error['interestedIn'])) ? 'error_input' : '' ?>" id="interestedIn" name="interestedIn">
+            <label for="searching">Que recherchez vous ?</label>
+            <select class="custom-select d-block w-100 <?= (isset($error['searching'])) ? 'error_input' : '' ?>" id="searching" name="searching">
                 <?php
-                if ($interestedIn != '') {
+                if ($searching != '') {
                 ?>
-                    <option value="<?= $interestedIn; ?>"><?= $interestedIn; ?></option>
+                    <option value="<?= $searching; ?>"><?= $searching; ?></option>
                 <?php
                 } else {  ?>
-                    <option value="">Vous êtes interessé par...</option>
+                    <option value="">Vous recherchez...</option>
                 <?php } ?>
-                <option value="Hommes">Hommes</option>
-                <option value="Femmes">Femmes</option>
+                <option value="un Homme">un Homme</option>
+                <option value="une Femme">une Femme</option>
             </select>
-            <p class="error"><?= ($error['interestedIn']) ?? '' ?></p>
+            <p class="error"><?= ($error['searching']) ?? '' ?></p>
         </div>
 
 

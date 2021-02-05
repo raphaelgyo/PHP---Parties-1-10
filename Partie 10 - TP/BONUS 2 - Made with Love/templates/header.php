@@ -22,12 +22,10 @@
     <!-- début body -->
     <div class="container">
 
-        <div class="row justify-content-center bloc mt-3">
+        <!-- <div class="row justify-content-center bloc mt-3">
             <video autoplay="autoplay" muted loop="infinite" src="assets/video/elie-semoun-mercedes-et-janine-les-petites-annonces.mp4">
             </video>
-        </div>
-
+        </div> -->
         <div class="row text-center">
-            <h1 class="col-md-12 mt-3">Made with Love</h1>
-            <h1 class="col-md-12 mb-3">💗</h1>
+            <h1 class="col-md-12 mt-3">Made with Love 💗</h1>
         </div>
