@@ -8,7 +8,7 @@
 </nav>
 
 
-<div class="container-fluid">
+<!-- <div class="container-fluid">
     <div class="row my-3">
         <div class="col-12 col-sm-6 my-3 my-sm-0">
             <div class="card">
@@ -43,4 +43,4 @@
 
         </div>
     </div>
-</div>
+</div> -->

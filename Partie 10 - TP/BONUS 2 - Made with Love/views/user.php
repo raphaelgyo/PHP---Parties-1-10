@@ -10,6 +10,9 @@ session_start();
 </nav>
 
 <div>
+
+    <!-- Ou mettre le timeout et la déconnexion ? -->
+
     <!-- Afficher toutes les informations de l'utilisateur lors de l'inscription.
 Nom
 Prénom
