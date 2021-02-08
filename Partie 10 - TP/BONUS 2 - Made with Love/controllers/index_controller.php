@@ -5,9 +5,8 @@ $verif = null;
 $error = [];
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['OK'])) {
-    //Si c'est le cas je recupère mes valeurs gràçe à la fonction filter_input() en précisant la method utilisé pour l'envoi  (premier paramètre)
-    //ainsi que le name de l'input que je veux récupérer (deuxième paramètre), en troisième paramètre je lui passe le filter sanitize que je souhaite
-    //disponible dans la doc PHP 
+    // Si c'est le cas je recupère mes valeurs gràçe à la fonction filter_input() en précisant la method utilisé pour l'envoi (premier paramètre)
+    // ainsi que le name de l'input que je veux récupérer (deuxième paramètre), en troisième paramètre je lui passe le filter sanitize que je souhaite disponible dans la doc PHP
     $lastname = filter_input(INPUT_POST, 'lastname', FILTER_SANITIZE_STRING);
     //Ensuite je vérifie si l'input est vide ou non
     if (!empty($lastname)) {
@@ -42,13 +41,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['OK'])) {
         $error['birthdate'] = 'Choisissez votre date de naissance';
     }
 
-    $gender = filter_input(INPUT_POST, 'gender', FILTER_SANITIZE_STRING);
-    if (!empty($gender)) {
-        if (!preg_match(REGEX_NO_NUMBER, $gender)) {
-            $error['gender'] = 'Le genre selectionné n\'est pas valide';
+    $profile_gender = filter_input(INPUT_POST, 'profile_gender', FILTER_SANITIZE_STRING);
+    if (!empty($profile_gender)) {
+        if (!preg_match(REGEX_NO_NUMBER, $profile_gender)) {
+            $error['profile_gender'] = 'Le genre selectionné n\'est pas valide';
         }
     } else {
-        $error['gender'] = 'Choisissez votre genre';
+        $error['profile_gender'] = 'Choisissez votre genre';
     }
 
     $zipcode = filter_input(INPUT_POST, 'zipcode', FILTER_SANITIZE_STRING);
@@ -69,13 +68,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['OK'])) {
         $error['mail'] = 'Entrez une adresse email valide';
     }
 
-    $searching = filter_input(INPUT_POST, 'searching', FILTER_SANITIZE_STRING);
-    if (!empty($searching)) {
-        if (!preg_match(REGEX_NO_NUMBER, $searching)) {
-            $error['searching'] = 'Le type de recherche selectionné n\'est pas valide';
+    $search_gender = filter_input(INPUT_POST, 'search_gender', FILTER_SANITIZE_STRING);
+    if (!empty($search_gender)) {
+        if (!preg_match(REGEX_NO_NUMBER, $search_gender)) {
+            $error['search_gender'] = 'Le type de recherche selectionné n\'est pas valide';
         }
     } else {
-        $error['searching'] = 'Choisissez votre type de recherche';
+        $error['search_gender'] = 'Choisissez votre type de recherche';
     }
 
     // COOKIES
@@ -116,4 +115,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['OK'])) {
     } else {
         $verif = false;
     }
-};
+}
+
+//fonction pour sécuriser les données
+function test_input($data)
+{
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}

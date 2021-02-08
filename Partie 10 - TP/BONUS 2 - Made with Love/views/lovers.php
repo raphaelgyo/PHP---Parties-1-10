@@ -1,3 +1,4 @@
+<!-- page qui apparait une fois le form complété et validé OK -->
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item active" aria-current="page">Bonjour <?= $_COOKIE['firstname'] ?></li>

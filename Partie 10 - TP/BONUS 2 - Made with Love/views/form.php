@@ -25,22 +25,22 @@
         </div>
 
         <div class="col-md-6 mb-3">
-            <label for="gender">Vous-êtes ?</label>
-            <select class="custom-select d-block w-100 <?= (isset($error['gender'])) ? 'error_input' : '' ?>" id="gender" name="gender">
+            <label for="profile_gender">Vous-êtes ?</label>
+            <select class="custom-select d-block w-100 <?= (isset($error['profile_gender'])) ? 'error_input' : '' ?>" id="profile_gender" name="profile_gender">
                 <?php
-                if ($gender != '') {
+                if ($profile_gender != '') {
                 ?>
-                    <option value="<?= $gender; ?>"><?= $gender; ?></option>
+                    <option value="<?= $profile_gender; ?>"><?= $profile_gender; ?></option>
                 <?php
                 } else {  ?>
-                    <option value="">Votre genre...</option>
+                    <option value="">Je suis...</option>
                 <?php } ?>
                 <option value="Homme">Homme</option>
                 <option value="Femme">Femme</option>
                 <option value="Autre">Autre</option>
             </select>
 
-            <p class="error"><?= ($error['gender']) ?? '' ?></p>
+            <p class="error"><?= ($error['profile_gender']) ?? '' ?></p>
         </div>
 
         <div class="col-md-6 mb-3">
@@ -62,20 +62,20 @@
 
 
         <div class="col-md-6 mb-3">
-            <label for="searching">Que recherchez vous ?</label>
-            <select class="custom-select d-block w-100 <?= (isset($error['searching'])) ? 'error_input' : '' ?>" id="searching" name="searching">
+            <label for="search_gender">Que recherchez vous ?</label>
+            <select class="custom-select d-block w-100 <?= (isset($error['search_gender'])) ? 'error_input' : '' ?>" id="search_gender" name="search_gender">
                 <?php
-                if ($searching != '') {
+                if ($search_gender != '') {
                 ?>
-                    <option value="<?= $searching; ?>"><?= $searching; ?></option>
+                    <option value="<?= $search_gender; ?>"><?= $search_gender; ?></option>
                 <?php
                 } else {  ?>
-                    <option value="">Vous recherchez...</option>
+                    <option value="">Je recherche...</option>
                 <?php } ?>
-                <option value="un Homme">un Homme</option>
-                <option value="une Femme">une Femme</option>
+                <option value="Un homme">Un homme</option>
+                <option value="Une femme">Une femme</option>
             </select>
-            <p class="error"><?= ($error['searching']) ?? '' ?></p>
+            <p class="error"><?= ($error['search_gender']) ?? '' ?></p>
         </div>
 
 
