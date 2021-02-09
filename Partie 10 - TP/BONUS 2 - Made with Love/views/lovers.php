@@ -13,42 +13,26 @@ include('controllers/lovers_controller.php');
 
 <h2 class="text-center mb-5">💗 Nos célibataires 💗</h2>
 
-<?php
-foreach ($tab_lovers as $tab_lover) {
-?>
-    <div class="row my-3">
-        <div class="col-12 col-md-6 col-sm-6 my-3 my-sm-0">
-            <div class="card">
-                <div class="position-relative">
-                    <img src="<?= $tab_lover['picture']; ?>" class="card-img-top" alt="">
-                    <div class="card-img-overlay d-flex justify-content-end align-items-end">
-                        <button type="button" class="btn btn-light rounded-circle" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="far fa-heart"></i></button>
+<div class="col-md-12">
+    <div class="row justify-content-center my-3">
+        <?php
+        foreach ($tab_lovers as $tab_lover) {
+        ?>
+            <div class="col-12 col-md-6 my-3">
+                <div class="card">
+                    <div class="position-relative">
+                        <img src="<?= $tab_lover['picture']; ?>" class="card-img-top" alt="">
+                        <div class="card-img-overlay d-flex justify-content-end align-items-end">
+                            <button type="button" class="btn btn-light rounded-circle" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-dark"><small><?= $tab_lover['firstname']; ?></small></h5>
+                        <p class="card-text"><strong class="text-danger">Contacter</strong></p>
                     </div>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title text-dark"><small><?= $tab_lover['firstname']; ?></small></h5>
-                    <p class="card-text"><strong class="text-danger">Contacter</strong></p>
-                </div>
             </div>
-        </div>
-
-        <!-- <div class="col-12 col-sm-6 my-3 my-sm-0">
-            <div class="card">
-                <div class="position-relative">
-                    <img src="https://pickaface.net/gallery/avatar/judycsmosh521a551b604bf.png" class="card-img-top" alt="">
-                    <div class="card-img-overlay d-flex justify-content-end align-items-end">
-                        <button type="button" class="btn btn-light rounded-circle" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="far fa-heart"></i></button>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title text-dark"><small>Titre card</small></h5>
-                    <p class="card-text"><strong class="text-danger">Contacter</strong></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 my-3 my-sm-0">
-
-        </div> -->
+        <?php
+        } ?>
     </div>
-<?php
-} ?>
+</div>

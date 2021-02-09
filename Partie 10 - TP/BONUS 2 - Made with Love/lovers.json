@@ -1,7 +1,7 @@
 [
     {
         "index": 0,
-        "picture": "https://pickaface.net/gallery/avatar/gs315535348ce076c6.png",
+        "picture": "assets/img/mec.png",
         "age": 57,
         "firstname": "Johnny",
         "lastname": "Deeplove",
@@ -13,19 +13,19 @@
     },
     {
         "index": 1,
-        "picture": "http://placehold.it/32x32",
-        "age": 24,
-        "firstname": "Barton",
-        "lastname": "Camacho",
+        "picture": "assets/img/bob.png",
+        "age": 36,
+        "firstname": "Bob",
+        "lastname": "Marlex",
         "gender": "male",
-        "email": "bartoncamacho@entropix.com",
-        "address": 94064,
+        "email": "bobmarlex@entropix.com",
+        "address": 80000,
         "about": "Adipisicing culpa voluptate reprehenderit veniam nulla est tempor deserunt tempor ea. Cupidatat fugiat laborum amet duis est. Mollit pariatur labore et aliqua adipisicing sit pariatur magna. Laboris ad ullamco Lorem duis. Adipisicing aliqua et quis ullamco anim ullamco cupidatat culpa laboris. Sint do sunt incididunt dolor sunt nulla sint proident id.\r\n",
         "registered": "2018-03-02T11:01:06 -01:00"
     },
     {
         "index": 2,
-        "picture": "https://pickaface.net/gallery/avatar/judycsmosh521a551b604bf.png",
+        "picture": "assets/img/nana.png",
         "age": 29,
         "firstname": "Eliza",
         "lastname": "Spence",
@@ -37,31 +37,31 @@
     },
     {
         "index": 3,
-        "picture": "http://placehold.it/32x32",
-        "age": 34,
-        "firstname": "Peters",
-        "lastname": "Lancaster",
+        "picture": "assets/img/avatar.png",
+        "age": 42,
+        "firstname": "Peter",
+        "lastname": "Teush",
         "gender": "male",
-        "email": "peterslancaster@entropix.com",
-        "address": 17459,
+        "email": "peterteush@entropix.com",
+        "address": 33000,
         "about": "In occaecat dolore nostrud consequat tempor duis ea dolor incididunt exercitation cupidatat. Dolore esse pariatur magna excepteur consequat magna adipisicing ad. Ut aute aliqua cupidatat ullamco dolore do sint est laboris sunt quis. Adipisicing pariatur in est veniam ut ipsum laboris amet labore. Culpa sit esse dolor magna sunt cupidatat voluptate.\r\n",
         "registered": "2021-01-06T06:58:43 -01:00"
     },
     {
         "index": 4,
-        "picture": "http://placehold.it/32x32",
-        "age": 23,
-        "firstname": "Tania",
-        "lastname": "Gibbs",
+        "picture": "assets/img/frida.png",
+        "age": 47,
+        "firstname": "Frida",
+        "lastname": "Kohla",
         "gender": "female",
-        "email": "taniagibbs@entropix.com",
-        "address": 74512,
+        "email": "fridakohla@entropix.com",
+        "address": 14000,
         "about": "Magna reprehenderit ut consectetur sit elit ipsum culpa dolor. Veniam in adipisicing cupidatat ipsum eiusmod exercitation. Sunt velit exercitation adipisicing nostrud non do est aliqua consequat ex sint ipsum dolor. Amet deserunt Lorem esse incididunt quis dolor eiusmod exercitation. Ipsum excepteur anim nulla incididunt excepteur deserunt pariatur esse cillum laborum tempor minim labore. Occaecat ullamco eu duis tempor sunt consequat incididunt in nisi. Ipsum labore nisi proident ea.\r\n",
         "registered": "2017-07-22T01:19:02 -02:00"
     },
     {
         "index": 5,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/nana2.png",
         "age": 26,
         "firstname": "Gail",
         "lastname": "Harvey",
@@ -73,7 +73,7 @@
     },
     {
         "index": 6,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/mec3.png",
         "age": 25,
         "firstname": "Hale",
         "lastname": "Riddle",
@@ -85,7 +85,7 @@
     },
     {
         "index": 7,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/mec4.png",
         "age": 25,
         "firstname": "Skinner",
         "lastname": "Jimenez",
@@ -97,7 +97,7 @@
     },
     {
         "index": 8,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/nana3.png",
         "age": 32,
         "firstname": "Catalina",
         "lastname": "Parrish",
@@ -109,7 +109,7 @@
     },
     {
         "index": 9,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/mec5.png",
         "age": 29,
         "firstname": "Hampton",
         "lastname": "Wolf",
@@ -121,7 +121,7 @@
     },
     {
         "index": 10,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/mec6.png",
         "age": 40,
         "firstname": "Luna",
         "lastname": "Austin",
@@ -133,7 +133,7 @@
     },
     {
         "index": 11,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/nana4.png",
         "age": 33,
         "firstname": "Dolores",
         "lastname": "Summers",
@@ -145,7 +145,7 @@
     },
     {
         "index": 12,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/mec7.png",
         "age": 38,
         "firstname": "Perkins",
         "lastname": "Hess",
@@ -157,7 +157,7 @@
     },
     {
         "index": 13,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/mec8.png",
         "age": 26,
         "firstname": "Stout",
         "lastname": "Byers",
@@ -169,7 +169,7 @@
     },
     {
         "index": 14,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/nana5.png",
         "age": 35,
         "firstname": "Lesley",
         "lastname": "French",
@@ -181,7 +181,7 @@
     },
     {
         "index": 15,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/nana6.png",
         "age": 28,
         "firstname": "Kendra",
         "lastname": "Snider",
@@ -193,7 +193,7 @@
     },
     {
         "index": 16,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/nana7.png",
         "age": 28,
         "firstname": "Minnie",
         "lastname": "Delgado",
@@ -205,7 +205,7 @@
     },
     {
         "index": 17,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/nana8.png",
         "age": 37,
         "firstname": "Rebekah",
         "lastname": "Avila",
@@ -217,7 +217,7 @@
     },
     {
         "index": 18,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/mec9.png",
         "age": 27,
         "firstname": "Mckinney",
         "lastname": "Kim",
@@ -229,7 +229,7 @@
     },
     {
         "index": 19,
-        "picture": "http://placehold.it/32x32",
+        "picture": "assets/img/nana9.png",
         "age": 29,
         "firstname": "Eddie",
         "lastname": "Blackburn",
