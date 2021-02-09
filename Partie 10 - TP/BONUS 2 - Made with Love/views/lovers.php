@@ -11,6 +11,8 @@ include('controllers/lovers_controller.php');
     </ol>
 </nav>
 
+<h2 class="text-center mb-5">💗 Nos célibataires 💗</h2>
+
 <?php
 foreach ($tab_lovers as $tab_lover) {
 ?>

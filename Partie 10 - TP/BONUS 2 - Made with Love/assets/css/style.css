@@ -67,7 +67,7 @@ body {
 h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 4rem;
-    color: #cd106e;
+    color: #e81224;
 }
 
 h2 {
@@ -80,7 +80,7 @@ h2 {
     /* border: 2px solid #7a7a7a; */
     transition: all 0.2s;
 
-    border-bottom: 2px solid #cd106e;
+    border-bottom: 2px solid #e81224;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -99,7 +99,7 @@ h2 {
 
 option {
     /* color: white; */
-    color: #cd106e;
+    color: #e81224;
     background-color: #131416;
 }
 
@@ -108,7 +108,7 @@ select option:hover {
 }
 
 button.btn-danger {
-    background-color: #cd106e !important;
+    background-color: #e81224 !important;
 }
 
 .error {
@@ -143,4 +143,8 @@ button.btn-danger {
 .show > .btn-light.dropdown-toggle {
     background-color: black;
     color: white;
+}
+
+nav ol li.breadcrumb-item a {
+    color: #ff4754;
 }
