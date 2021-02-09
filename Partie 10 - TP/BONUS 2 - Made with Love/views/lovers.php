@@ -26,8 +26,12 @@ include('controllers/lovers_controller.php');
                             <button type="button" class="btn btn-light rounded-circle" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="far fa-heart"></i></button>
                         </div>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body px-3">
                         <h5 class="card-title text-dark"><small><?= $tab_lover['firstname']; ?></small></h5>
+                        <h5 class="card-title text-dark"><small><?= $tab_lover['lastname']; ?></small></h5>
+                        <h5 class="card-title text-dark"><small><?= $tab_lover['age']; ?></small></h5>
+                        <h5 class="card-title text-dark"><small><?= $tab_lover['address']; ?></small></h5>
+                        <h5 class="card-title text-dark"><small><?= $tab_lover['about']; ?></small></h5>
                         <p class="card-text"><strong class="text-danger">Contacter</strong></p>
                     </div>
                 </div>
