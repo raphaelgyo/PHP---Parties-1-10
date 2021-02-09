@@ -35,9 +35,9 @@
                 } else {  ?>
                     <option value="">Je suis...</option>
                 <?php } ?>
-                <option value="Homme">Homme</option>
-                <option value="Femme">Femme</option>
-                <option value="Autre">Autre</option>
+                <option value="Un homme">Un homme</option>
+                <option value="Une femme">Une femme</option>
+                <option value="Non-binaire">Non-binaire</option>
             </select>
 
             <p class="error"><?= ($error['profile_gender']) ?? '' ?></p>
