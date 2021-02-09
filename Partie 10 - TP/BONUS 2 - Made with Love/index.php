@@ -1,5 +1,5 @@
 <?php
-
+include('utils/regex.php');
 include('controllers/index_controller.php');
 
 if (isset($_COOKIE['firstname'])) {

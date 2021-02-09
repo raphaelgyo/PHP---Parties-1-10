@@ -1,6 +1,4 @@
 <?php
-
-include('utils/regex.php');
 $verif = null;
 $error = [];
 
@@ -72,43 +70,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['OK'])) {
     // COOKIES
 
     if (empty($error)) {
-        setcookie('firstname', $firstname, time() + 3600 * 24);
-        header('Refresh:0');
-    } else {
-        $verif = false;
-    }
-    if (empty($error)) {
-        setcookie('lastname', $lastname, time() + 3600 * 24);
-        header('Refresh:0');
-    } else {
-        $verif = false;
-    }
-    if (empty($error)) {
-        setcookie('birthdate', $birthdate, time() + 3600 * 24);
-        header('Refresh:0');
-    } else {
-        $verif = false;
-    }
-    if (empty($error)) {
-        setcookie('zipcode', $zipcode, time() + 3600 * 24);
-        header('Refresh:0');
-    } else {
-        $verif = false;
-    }
-    if (empty($error)) {
-        setcookie('mail', $mail, time() + 3600 * 24);
-        header('Refresh:0');
-    } else {
-        $verif = false;
-    }
-    if (empty($error)) {
-        setcookie('searching', $searching, time() + 3600 * 24);
+        setcookie('firstname', $firstname, time() + 3600 * 24, '/');
+        setcookie('lastname', $lastname, time() + 3600 * 24, '/');
+        setcookie('birthdate', $birthdate, time() + 3600 * 24, '/');
+        setcookie('profile_gender', $profile_gender, time() + 3600 * 24, '/');
+        setcookie('zipcode', $zipcode, time() + 3600 * 24, '/');
+        setcookie('mail', $mail, time() + 3600 * 24, '/');
+        setcookie('search_gender', $search_gender, time() + 3600 * 24, '/');
         header('Refresh:0');
     } else {
         $verif = false;
     }
 }
-
 //fonction pour sécuriser les données
 function test_input($data)
 {
