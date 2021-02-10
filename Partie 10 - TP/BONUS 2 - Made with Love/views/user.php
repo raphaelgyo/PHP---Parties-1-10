@@ -1,4 +1,6 @@
 <?php
+setlocale(LC_ALL, 'fra.utf8');
+$timestamp = strtotime($_COOKIE['birthdate']);
 include('../utils/regex.php');
 include('../templates/header.php');
 ?>
@@ -17,7 +19,7 @@ include('../templates/header.php');
     <div class="col-md-6 mb-3">
         <p>Nom : <?= $_COOKIE['lastname']; ?></p>
         <p>Prénom : <?= $_COOKIE['firstname']; ?></p>
-        <p>Date de naissance : <?= $_COOKIE['birthdate']; ?></p>
+        <p>Date de naissance : <?= strftime("%d %B %Y", $timestamp); ?></p>
         <p>Vous êtes : <?= $_COOKIE['profile_gender']; ?></p>
         <p>Code postal : <?= $_COOKIE['zipcode']; ?></p>
         <p>Email : <?= $_COOKIE['mail']; ?></p>

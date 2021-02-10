@@ -80,7 +80,7 @@ h2 {
     /* border: 2px solid #7a7a7a; */
     transition: all 0.2s;
 
-    border-bottom: 2px solid #e81224;
+    border-bottom: 2px solid #cd106e;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -99,7 +99,7 @@ h2 {
 
 option {
     /* color: white; */
-    color: #e81224;
+    color: #cd106e;
     background-color: #131416;
 }
 
@@ -108,7 +108,7 @@ select option:hover {
 }
 
 button.btn-danger {
-    background-color: #e81224 !important;
+    background-color: #cd106e !important;
 }
 
 .error {
