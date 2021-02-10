@@ -1,0 +1,68 @@
+body {
+    background: #3a3a3a;
+}
+h1 {
+    color: #fff;
+}
+.error {
+    color: red;
+}
+option {
+    background: #3a3a3a;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #3a3a3a inset;
+}
+/*Change text in autofill textbox*/
+input:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-text-fill-color: #dcb253;
+}
+input.form-control,
+select.form-control {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid#FFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    color: #dcb253;
+}
+.form-control::placeholder {
+    color: #fff;
+}
+.form-control:focus {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid#DCB253;
+    box-shadow: none;
+    color: #dcb253;
+}
+label {
+    color: #fff;
+}
+input.error_input,
+select.error_input {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    color: #dcb253;
+}
+
+textarea.form-control {
+    border: 2px solid #fff;
+    background: rgba(0, 0, 0, 0);
+    color: #dcb253;
+}
+textarea.error_input {
+    border: 2px solid red;
+}

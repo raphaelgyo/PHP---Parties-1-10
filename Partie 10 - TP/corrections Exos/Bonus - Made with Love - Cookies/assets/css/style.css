@@ -1,0 +1,14 @@
+.profil_picture{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.liked.btn-check:focus+.btn-primary, .liked.btn-primary:focus, .liked{
+    background-color: red;
+}
+.liked.btn-primary:focus{
+    box-shadow: none;
+    border: none;
+}
